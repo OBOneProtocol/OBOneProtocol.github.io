@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Jesse Obymako | AI Automation, Cloud and IT Support</title>
+<meta name="description" content="Jesse Obymako: service desk background, now building AI workflow automation and cloud tooling with a human in the lead. Merged fixes, each with a test.">
+<link rel="canonical" href="https://oboneprotocol.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Jesse Obymako: AI automation with a human in the lead">
+<meta property="og:description" content="Service desk roots, AI workflow automation and cloud tooling. Upstream fixes merged and in review, every one backed by a test.">
+<meta property="og:url" content="https://oboneprotocol.github.io/">
+<meta property="og:image" content="https://oboneprotocol.github.io/img/og-image.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="AI automation with a human in the lead.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Jesse Obymako: AI automation with a human in the lead">
+<meta name="twitter:description" content="Service desk roots, AI workflow automation and cloud tooling. Upstream fixes merged and in review, every one backed by a test.">
+<meta name="twitter:image" content="https://oboneprotocol.github.io/img/og-image.png">
+<meta name="color-scheme" content="dark light">
+<link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+<script>try{var t=localStorage.getItem("theme");if(!t&&window.matchMedia&&matchMedia("(prefers-color-scheme: light)").matches)t="light";if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+<link rel="stylesheet" href="css/style.css">
+<style>.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top"><div class="wrap bar">
+<a class="brand" href="#top"><span>~/</span>jesse-obymako</a>
+<nav aria-label="Primary"><ul><li><a href="#work">Work</a></li><li><a href="#how">How I work</a></li><li><a href="#experience">Experience</a></li><li><a href="#skills">Skills</a></li><li><a href="#contact">Contact</a></li></ul></nav>
+<div class="tools"><button id="theme" type="button" aria-label="Switch color theme" title="Switch color theme">&#9680;</button></div>
+</div></header>
+<main id="main">
+<section class="hero" id="top"><div class="wrap hero-grid">
+<div>
+<p class="eyebrow">IT support and systems &middot; AI workflow automation &middot; Cloud</p>
+<h1>AI automation with <em>a human in the lead.</em></h1>
+<p class="sub">More than four years on an enterprise service desk taught me to find the failure people can&rsquo;t see. Now I build AI workflows and cloud tooling where the agents draft and test the work, and nothing ships under my name until I approve it.</p>
+<div class="term" role="img" aria-label="Terminal tagline cycling through my working rules"><div class="term-h" aria-hidden="true"><i></i><i></i><i></i></div><div class="term-b" id="tagline" aria-hidden="true"><span class="p">$ reproduce --issue</span>    <span class="c"># failing test before the fix</span></div></div>
+<div class="btns"><a class="btn primary" href="#work">View the work</a><a class="btn" href="resume.pdf" download>Download resume</a><a class="btn" href="resume.html">Web resume</a></div>
+</div>
+<div class="portrait"><img id="profile-img" src="img/profile.jpg" alt="Portrait of Jesse Obymako" width="220" height="220"><div class="fallback" id="profile-fallback" hidden aria-label="Initials JO" role="img">JO</div></div>
+</div></section>
+
+<section id="stats" aria-labelledby="stats-h"><div class="wrap">
+<h2 id="stats-h" class="sr">Live GitHub stats</h2>
+<div class="stats" id="stats" hidden>
+<div class="card stat rv"><div class="n" data-key="merged">0</div><div class="l">Merged upstream PRs</div></div>
+<div class="card stat rv"><div class="n" data-key="repos">0</div><div class="l">Projects with my merged fixes</div></div>
+<div class="card stat rv"><div class="n" data-key="open">0</div><div class="l">PRs in maintainer review</div></div>
+</div>
+<p id="stats-fallback" hidden>Live counts unavailable right now. See the pull requests below.</p>
+<p class="cap">Pulled live from GitHub. Every fix includes a test.</p>
+</div></section>
+
+<section id="work" aria-labelledby="work-h"><div class="wrap">
+<h2 id="work-h">Selected work</h2>
+<p class="lead">Proof over claims. Each card links to the code or the pull request.</p>
+<article class="card feat rv"><h3>llmops-infra-guide</h3><p>An LLM drafts a Dockerfile, <code>docker build</code> validates it, and the build errors feed the next attempt. A generate-and-validate loop with documented samples for Flask, Node.js and Go.</p><ul class="chips"><li>LLMOps</li><li>Docker</li><li>Python</li><li>Node.js</li><li>Go</li></ul><a class="go" href="https://github.com/OBOneProtocol/llmops-infra-guide">View on GitHub<span class="sr"> (llmops-infra-guide)</span></a></article>
+<h3 class="sub3">Merged upstream <span class="merged-tag">merged</span></h3>
+<div class="grid">
+<article class="card rv"><h3>career-ops #7098: Updater drift reporting</h3><p>When the commit lookup failed, the updater said &ldquo;up to date&rdquo;. It now reports drift, and a test stubs the failed lookup.</p><ul class="chips"><li>Node.js</li><li>Reliability</li><li class="t">Test added</li></ul><p><img class="badge" src="https://img.shields.io/github/pulls/detail/state/career-ops-hq/career-ops/7098" alt="Pull request state" loading="lazy" height="20"> <a class="go" href="https://github.com/career-ops-hq/career-ops/pull/7098">Read the pull request<span class="sr"> for career-ops #7098</span></a></p></article>
+<article class="card rv"><h3>career-ops #3711: Playwright MCP detection</h3><p>Detects project-scoped Playwright MCP installs, with precedence-aware config resolution and regression tests.</p><ul class="chips"><li>Playwright</li><li>MCP</li><li>Config</li><li class="t">Test added</li></ul><p><img class="badge" src="https://img.shields.io/github/pulls/detail/state/career-ops-hq/career-ops/3711" alt="Pull request state" loading="lazy" height="20"> <a class="go" href="https://github.com/career-ops-hq/career-ops/pull/3711">Read the pull request<span class="sr"> for career-ops #3711</span></a></p></article>
+<article class="card rv"><h3>career-ops #3591: Prompt-assembly hardening</h3><p>Hardens context-budget prompt assembly and tracker-path handling.</p><ul class="chips"><li>LLM tooling</li><li>Hardening</li><li class="t">Test added</li></ul><p><img class="badge" src="https://img.shields.io/github/pulls/detail/state/career-ops-hq/career-ops/3591" alt="Pull request state" loading="lazy" height="20"> <a class="go" href="https://github.com/career-ops-hq/career-ops/pull/3591">Read the pull request<span class="sr"> for career-ops #3591</span></a></p></article>
+<article class="card rv"><h3>sure #5038: Brandfetch logo URLs</h3><p>Stored logo URLs resolve with the current client ID, so rotating the ID repairs existing logos without a data backfill.</p><ul class="chips"><li>Ruby on Rails</li><li>Integrations</li><li class="t">Test added</li></ul><p><img class="badge" src="https://img.shields.io/github/pulls/detail/state/we-promise/sure/5038" alt="Pull request state" loading="lazy" height="20"> <a class="go" href="https://github.com/we-promise/sure/pull/5038">Read the pull request<span class="sr"> for sure #5038</span></a></p></article>
+<article class="card rv"><h3>ttt #1601: Indent settings for new buffers</h3><p>New untitled buffers inherit the editor&rsquo;s <code>insertSpaces</code> and <code>tabSize</code> settings, verified against the built binary.</p><ul class="chips"><li>Editor</li><li>Bug fix</li><li class="t">Test added</li></ul><p><img class="badge" src="https://img.shields.io/github/pulls/detail/state/eugenioenko/ttt/1601" alt="Pull request state" loading="lazy" height="20"> <a class="go" href="https://github.com/eugenioenko/ttt/pull/1601">Read the pull request<span class="sr"> for ttt #1601</span></a></p></article>
+</div>
+<h3 class="sub3">In review upstream</h3>
+<div class="grid">
+<article class="card rv"><h3>conductor #1831: MySQL unack sweep</h3><p>The unack sweep stays scheduled after a failed run, so a dropped database connection no longer strands workflows until restart.</p><ul class="chips"><li>Java</li><li>MySQL</li><li>Workflow engine</li><li class="t">Test added</li></ul><p><img class="badge" src="https://img.shields.io/github/pulls/detail/state/conductor-oss/conductor/1831" alt="Pull request state" loading="lazy" height="20"> <a class="go" href="https://github.com/conductor-oss/conductor/pull/1831">Read the pull request<span class="sr"> for conductor #1831</span></a></p></article>
+<article class="card rv"><h3>agent-browser #2549: Cross-origin iframe selector</h3><p><code>frame "#selector"</code> resolves cross-origin iframes, covered by an end-to-end test against real Chrome.</p><ul class="chips"><li>Browser automation</li><li>Chrome</li><li class="t">E2E test</li></ul><p><img class="badge" src="https://img.shields.io/github/pulls/detail/state/vercel-labs/agent-browser/2549" alt="Pull request state" loading="lazy" height="20"> <a class="go" href="https://github.com/vercel-labs/agent-browser/pull/2549">Read the pull request<span class="sr"> for agent-browser #2549</span></a></p></article>
+</div>
+<h3 class="sub3">Building now (private)</h3>
+<p class="lead">Private projects in progress. Happy to walk through them in an interview.</p>
+<div class="grid">
+<article class="card rv"><h3>AI-assisted IT service desk</h3><p>Agents handle intake, triage and first-line remediation. A fix that fails review gets up to three examined fixes before the ticket escalates to a technician, and privileged actions such as password resets need a human approver.</p><ul class="chips"><li>ITSM</li><li>AI agents</li><li>Approval gates</li></ul></article>
+<article class="card rv"><h3>Operator console</h3><p>Halt a run, preserve its session, and review the report every run produces. Any run can be handed to a person at the same step.</p><ul class="chips"><li>Observability</li><li>Human in the lead</li><li>Run reports</li></ul></article>
+</div>
+<div class="gh rv"><img class="av" src="img/github-avatar.jpg" alt="GitHub avatar of OBOneProtocol" width="72" height="72"><div><strong>On GitHub</strong><br><a href="https://github.com/OBOneProtocol">github.com/OBOneProtocol</a></div></div>
+<div class="snake rv"><img id="graph" alt="GitHub contribution graph with a snake eating the contribution squares" src="https://raw.githubusercontent.com/OBOneProtocol/OBOneProtocol/output/github-contribution-grid-snake-dark.svg" loading="lazy"></div>
+</div></section>
+
+<section id="how" aria-labelledby="how-h"><div class="wrap">
+<h2 id="how-h">How I work</h2>
+<p class="lead">The operating model borrows from IT service management: clear tickets, clear owners, and a person who signs off.</p>
+<div class="flow rv"><svg viewBox="0 0 880 250" role="img" aria-labelledby="ft fd"><title id="ft">How I work</title><desc id="fd">I brief a personal agent, a lead splits the work across a group of specialists, and results come back through the lead and the personal agent to an approval gate for me. Approved work goes back to the specialists to finish and verify.</desc>
+<path class="fl-ln" d="M180 70 H210"/><path class="fl-ln" d="M340 70 H370"/><path class="fl-ln" d="M480 70 H560"/><path class="fl-ln" d="M560 84 H480"/><path class="fl-ln" d="M370 84 H340"/><path class="fl-ln" d="M275 100 V167 H180"/><path class="fl-ln" d="M100 100 V150"/><path class="fl-ln" d="M100 184 V225 H645 V108"/><path class="fl-ln" d="M730 70 H780"/>
+<g class="sig sigb"><circle r="7" opacity=".22"/><circle r="3.2"/><animateMotion dur="0.7s" begin="0s" repeatCount="indefinite" path="M180 70 H210"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.9;1" dur="0.7s" begin="0s" repeatCount="indefinite"/></g>
+<g class="sig sigb"><circle r="7" opacity=".22"/><circle r="3.2"/><animateMotion dur="0.7s" begin="0.35s" repeatCount="indefinite" path="M340 70 H370"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.9;1" dur="0.7s" begin="0.35s" repeatCount="indefinite"/></g>
+<g class="sig sigb"><circle r="7" opacity=".22"/><circle r="3.2"/><animateMotion dur="0.9s" begin="0.7s" repeatCount="indefinite" path="M480 70 H560"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.9;1" dur="0.9s" begin="0.7s" repeatCount="indefinite"/></g>
+<g class="sig sigb"><circle r="7" opacity=".22"/><circle r="3.2"/><animateMotion dur="0.9s" begin="1.6s" repeatCount="indefinite" path="M480 70 H560"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.9;1" dur="0.9s" begin="1.6s" repeatCount="indefinite"/></g>
+<g class="sig sigg"><circle r="7" opacity=".22"/><circle r="3.2"/><animateMotion dur="0.9s" begin="1.4s" repeatCount="indefinite" path="M560 84 H480"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.9;1" dur="0.9s" begin="1.4s" repeatCount="indefinite"/></g>
+<g class="sig sigg"><circle r="7" opacity=".22"/><circle r="3.2"/><animateMotion dur="0.7s" begin="2.1s" repeatCount="indefinite" path="M370 84 H340"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.9;1" dur="0.7s" begin="2.1s" repeatCount="indefinite"/></g>
+<g class="sig sigg"><circle r="7" opacity=".22"/><circle r="3.2"/><animateMotion dur="1.4s" begin="2.6s" repeatCount="indefinite" path="M275 100 V167 H180"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.9;1" dur="1.4s" begin="2.6s" repeatCount="indefinite"/></g>
+<g class="sig sigg"><circle r="7" opacity=".22"/><circle r="3.2"/><animateMotion dur="3s" begin="3.6s" repeatCount="indefinite" path="M100 184 V225 H645 V108"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.9;1" dur="3s" begin="3.6s" repeatCount="indefinite"/></g>
+<g class="sig sigg"><circle r="7" opacity=".22"/><circle r="3.2"/><animateMotion dur="0.6s" begin="5.0s" repeatCount="indefinite" path="M730 70 H780"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.9;1" dur="0.6s" begin="5.0s" repeatCount="indefinite"/></g>
+<rect class="fl-box" x="20" y="40" width="160" height="60" rx="10"/><text class="fl-t" x="100" y="66" text-anchor="middle">Me</text><text class="fl-s" x="100" y="84" text-anchor="middle">human in the lead</text>
+<rect class="fl-box" x="210" y="40" width="130" height="60" rx="10"/><text class="fl-t" x="275" y="66" text-anchor="middle">Personal agent</text><text class="fl-s" x="275" y="84" text-anchor="middle">briefs and presents</text>
+<rect class="fl-box" x="370" y="40" width="110" height="60" rx="10"/><text class="fl-t" x="425" y="66" text-anchor="middle">Lead</text><text class="fl-s" x="425" y="84" text-anchor="middle">splits the work</text>
+<rect class="fl-bg" x="576" y="26" width="170" height="70" rx="10"/><rect class="fl-bg" x="568" y="32" width="170" height="70" rx="10"/><rect class="fl-box" x="560" y="38" width="170" height="70" rx="10" style="stroke:var(--blue)"/><text class="fl-t" x="645" y="68" text-anchor="middle">Specialists</text><text class="fl-s" x="645" y="86" text-anchor="middle">checked independently</text>
+<rect class="fl-box" x="780" y="40" width="80" height="60" rx="10"/><text class="fl-t" x="820" y="66" text-anchor="middle">Finish</text><text class="fl-s" x="820" y="84" text-anchor="middle">verified</text>
+<rect class="gate" x="20" y="150" width="160" height="34" rx="17"/><text class="fl-t" x="100" y="172" text-anchor="middle">Approval</text>
+<text class="fl-s" x="292" y="160">results for my sign-off</text>
+<text class="fl-s" x="440" y="243" text-anchor="middle">approved work goes back to the specialists to finish</text>
+</svg></div>
+<p class="cap" style="margin-bottom:22px">I brief a personal agent, a lead splits the work across specialists, and results come back to me for approval before anything is finished.</p>
+<div class="grid">
+<article class="card rv"><h3>Brief first</h3><p>Every task starts as a written brief with scope, done criteria and what is off limits.</p></article>
+<article class="card rv"><h3>Specialist work</h3><p>Build, test, security review and writing each go to the specialist suited to them, checked independently. A summary from another agent is not evidence.</p></article>
+<article class="card rv"><h3>Approval gate</h3><p>Pull requests, public posts and anything that spends money wait for my approval of the exact item. Approved work is then finished and verified.</p></article>
+<article class="card rv"><h3>Examined fixes</h3><p>On failure: what broke, the likely cause, what the next attempt changes. At most three, then it halts and escalates with the evidence.</p></article>
+</div>
+</div></section>
+
+<section id="experience" aria-labelledby="exp-h"><div class="wrap">
+<h2 id="exp-h">Experience</h2>
+<div class="timeline">
+<article class="job rv"><h3>AI Systems &amp; Automation <span>&middot; Self-employed</span></h3><p class="when">Aug 2026 &ndash; Present</p><ul>
+<li>Designed and run a supervised multi-agent AI workflow on Claude Code and Copilot CLI, among other tools, for engineering, research and audit work, with service-desk-style escalation.</li>
+<li>Built approval gates: nothing pushes code, opens a pull request, posts or spends without my sign-off, and a blocked action halts with full context instead of retrying.</li>
+<li>Kept AI costs low by matching each task to the least expensive model that does it at full quality.</li>
+<li>Wrote specifications, runbooks and schema documentation, with automated tests that keep definitions consistent across platforms.</li>
+<li>Contributed tested fixes upstream to career-ops, sure and ttt (merged) and to conductor and agent-browser (in review).</li></ul></article>
+<article class="job rv"><h3>Career break: professional development and family caregiving</h3><p class="when">Mar 2022 &ndash; Aug 2026</p><ul>
+<li>Earned CompTIA A+ (Dec 2023).</li>
+<li>Self-directed study in full-stack development, CI/CD pipelines, cloud infrastructure and AI agent orchestration.</li>
+<li>Primary caregiver for elderly family members.</li>
+<li>Earned SMAW and MIG welding certifications (Jun 2023), with working knowledge of TIG.</li></ul></article>
+<article class="job rv"><h3>Service Desk Analyst <span>&middot; Harbor Freight Tools</span></h3><p class="when">Oct 2017 &ndash; Mar 2022</p><ul>
+<li>Resolved hardware, software, network and enterprise-application issues for store and corporate users by phone, chat, email and ticket, within response-time targets.</li>
+<li>Found a recurring POS failure pattern and built an automated fix, cutting service desk call volume by about 30%.</li>
+<li>Diagnosed network outages across a nationwide store network, restoring locations that could not operate without their systems.</li>
+<li>Supported the move from on-premises infrastructure to a Microsoft Azure hybrid environment and the migration to ServiceNow (ticketing, workflows, back-end configuration).</li>
+<li>Provided priority support to retail VPs; researched account history in Salesforce and SQL; supported the in-house credit card rollout.</li>
+<li>Escalated defects to development, networking and security teams through Jira and worked with vendors on replacement hardware.</li></ul></article>
+<article class="job rv"><h3>Supervisor / Key Holder <span>&middot; Jersey Mike&rsquo;s Subs</span></h3><p class="when">Mar 2016 &ndash; Oct 2017</p><ul>
+<li>Ran opening and closing: register reconciliation, cash handling, deposits and inventory.</li>
+<li>Supervised and coached staff and resolved customer issues on the spot.</li></ul></article>
+</div>
+</div></section>
+
+<section id="skills" aria-labelledby="sk-h"><div class="wrap">
+<h2 id="sk-h">Skills</h2>
+<div class="grid">
+<article class="card rv"><h3>Support &amp; ITSM</h3><p>Help desk and service desk, high-volume ticket queues, remote support, escalation management, root-cause analysis, knowledge-base writing</p></article>
+<article class="card rv"><h3>Systems, Cloud &amp; Networking</h3><p>Windows, Windows Server, Active Directory, Microsoft Azure (hybrid), AWS, VMware, Docker, Cisco routers and switches, network diagnostics, telephony</p></article>
+<article class="card rv"><h3>Code &amp; Automation</h3><p>Python, PowerShell, Bash, SQL, Node.js, C, Java, Git and GitHub, Playwright, CI/CD</p></article>
+<article class="card rv"><h3>AI Workflows &amp; Tools</h3><p>Claude Code and Copilot CLI, among other tools; approval-gated agent workflows; LLM generate-and-validate loops; ServiceNow, Jira, Salesforce, Teams, Slack, Zoom</p></article>
+</div>
+<p class="card cert rv"><strong>CompTIA A+</strong> &middot; Earned December 2023</p>
+</div></section>
+
+<section id="contact" class="contact" aria-labelledby="c-h"><div class="wrap">
+<h2 id="c-h">Let&rsquo;s talk</h2>
+<p class="lead">Open to AI automation, cloud and technical support roles, in the Los Angeles / Long Beach area or remote.</p>
+<div class="btns"><a class="btn primary" href="mailto:jobymako3131@gmail.com">Email me</a><a class="btn" href="https://www.linkedin.com/in/oboneprotocol/">LinkedIn</a><a class="btn" href="https://github.com/OBOneProtocol">GitHub</a></div>
+</div></section>
+</main>
+<footer><div class="wrap">&copy; <span id="year">2026</span> Jesse Obymako. Designed and reviewed by me, built with Claude Code and Copilot CLI, among other tools.</div></footer>
+<script src="js/main.js" defer></script>
+</body></html>
